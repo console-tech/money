@@ -9,7 +9,7 @@ repository = "https://github.com/console-tech/money"
 documentation = "https://github.com/console-tech/money/blob/main/README.md"
 
 keywords = ["money", "currency", "rust"]
-categories = ["financial", "bigdecimal"]
+categories = ["finance"]
 readme = "README.md"
 
 [dependencies]
