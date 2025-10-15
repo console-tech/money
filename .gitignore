@@ -1,0 +1,88 @@
+# -----------------------------
+# Rust / Cargo
+# -----------------------------
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Se for uma lib pública, remova o comentário abaixo para versionar o Cargo.lock
+# !Cargo.lock
+
+# -----------------------------
+# Build / Output / Logs
+# -----------------------------
+*.log
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.rlib
+*.rmeta
+
+# -----------------------------
+# IDEs e Editores
+# -----------------------------
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains / IntelliJ / CLion
+.idea/
+*.iml
+out/
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+*.swn
+.#*
+
+# -----------------------------
+# Sistema Operacional
+# -----------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -----------------------------
+# Docker / Containers
+# -----------------------------
+/docker-compose.override.yml
+/docker-compose.local.yml
+/.env
+.env.*
+*.env
+*.bak
+*.tmp
+
+# -----------------------------
+# Testes e ferramentas
+# -----------------------------
+/coverage/
+*.profraw
+*.profdata
+/tests/tmp/
+dump.rdb
+
+# -----------------------------
+# Ferramentas externas (opcional)
+# -----------------------------
+/node_modules/
+dist/
+build/
+.nyc_output/
+coverage/
