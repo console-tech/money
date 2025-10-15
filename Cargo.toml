@@ -2,5 +2,14 @@
 name = "money"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+description = "Library to handle monetary values in rust"
+authors = ["Leonardo Teixeira <console.tech@outlook.com>"]
+repository = "https://github.com/console-tech/money"
+documentation = "https://github.com/console-tech/money/blob/main/README.md"
+
+keywords = ["money", "currency", "rust"]
+categories = ["financial", "bigdecimal"]
+readme = "README.md"
 
 [dependencies]
